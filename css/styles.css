@@ -8,14 +8,14 @@ body {
 }
 
 div {
-  padding: 10px 0;
-  margin: 1px;
+  padding: 1rem 0;
+  margin: 0.16rem;
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 3.125rem auto 0 auto;
   font-family: 'Tangerine', cursive;
-  font-size: 5.625rem;   /* 100% = 16px = 1em so 90px = 562.5% = 5.625em*/
+  font-size: 7rem;   /* 100% = 16px = 1em so 90px = 562.5% = 5.625em*/
   font-weight: bold;
   color: #4ab19a;
 }
@@ -25,11 +25,11 @@ h1:hover {
 }
 
 h2 {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   font-family: 'Libre Baskerville', serif;
   font-style: italic;
   color: #77f4d7;
-  padding: 10px;
+  padding: 1rem;
 }
 
 h3 {
@@ -45,17 +45,17 @@ img {
 }
 
 hr {
-  margin: 70px auto;
+  margin: 4.375rem auto;
   width: 4%;
   border-style: none;
   border-top-style: dotted;
   border-color: lightgrey;
-  border-width: 6px;
+  border-width: 0.375rem;
 
 }
 
 a {
-  margin: 50px;
+  margin: 3.125rem;
   text-decoration: none;
   color: #11999E;
 }
@@ -64,16 +64,21 @@ a:hover {
   text-shadow: 2px 2px 3px grey;
 }
 
+p {
+  line-height: 2;
+}
+
 li {
-  margin: 20px;
+  margin-bottom: 1.1rem;
 }
 /************************************** CLASS SELECTORS *************************************************************************/
 .top-container {
   background-color: #cdffeb;
   position: relative;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   height: auto;
   color: #324a5e;
+  padding-bottom: 0;
 
 }
 
@@ -81,21 +86,21 @@ li {
   width: 60%;
   margin: auto;
   font-family: 'Merienda One', cursive;
-  font-size: 20px;
-  line-height: 2;
+  font-size: 1.25rem;
+
 }
 
 .middle-container {
   background-color: #009f9d;
   height: auto;
   position: relative;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .top-cloud {
   position: relative;
-  left: 270px;
-  height: 100px;
+  left: 16.875rem;
+  height: 6.25rem;
 }
 
 .top-cloud:hover {
@@ -104,8 +109,8 @@ li {
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  height: 100px;
+  left: 15.625rem;
+  height: 6.25rem;
 }
 
 .bottom-cloud:hover {
@@ -118,8 +123,8 @@ li {
 }
 
 .contact-me {
-  margin: 10px;
-  margin-bottom: 40px;
+  margin: 0.625rem;
+  margin-bottom: 2.5rem;
   line-height: 2;
 }
 
@@ -128,10 +133,11 @@ li {
   height: auto;
   position: relative;
   color: #b7e2f7;
+
 }
 
 .skill-row {
-  margin: 100px auto;
+  margin: 6.25rem auto;
   width: 50%;
   text-align: left;
 }
@@ -148,7 +154,7 @@ li {
 
 .pic {
   width: 20%;
-  margin: 20px;
+  margin: 1.4rem;
 }
 
 .pic:hover {
@@ -162,8 +168,8 @@ li {
 .p-skill {
   font-family: 'Merienda One', cursive;
   font-size: 1.1rem;
-  margin: 20px;
-  line-height: 2;
+  margin: 1.4rem;
+
 }
 
 .subtitle {
@@ -172,7 +178,7 @@ li {
 
 .course-list {
   font-size: 1rem;
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
   text-align: left;
 }
@@ -182,11 +188,13 @@ li {
   background-color: #0f0a3c;
   height: auto;
   color: #ccf9f9;
-  padding: 20px;
+  padding: 1.4rem;
+  line-height: 2;
+  padding-bottom: 3rem;
 }
 
 .edu-table {
-  border-spacing: 50px;
+  border-spacing: 3.125rem;
   margin: 0 auto;
   font-size: 1.1rem;
   text-align: left;
@@ -204,11 +212,11 @@ li {
 
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 28px;
+  border-radius: 1.75rem;
   font-family: 'Libre Baskerville', serif;
   color: #ffffff;
   font-size: 1rem;
-  padding: 10px 20px 10px 20px;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
   text-decoration: none;
 }
 
@@ -226,7 +234,7 @@ li {
 }
 
 .envelope {
-  height: 25px;
+  height: 1.5rem;
 
 }
 
@@ -234,15 +242,16 @@ li {
   background-color: #080523;
   height: auto;
   color: #bbc4f7;
+  padding-top: 4rem;
 }
 
 .links {
   background-color: #070611;
   height: auto;
   color: white;
-  padding-top: 20px;
+  padding-top: 2.2rem;
 }
 
 .reserved {
-  font-size: 15px;
+  font-size: 0.8rem;
 }
